@@ -9,9 +9,7 @@ exports.config = {
     'browserName': 'chrome'
   },
 
-  chromeOnly: true,
-
-  baseUrl: 'http://localhost:8000/',
+  baseUrl: 'http://localhost:8000/app/',
 
   framework: 'jasmine',
 
