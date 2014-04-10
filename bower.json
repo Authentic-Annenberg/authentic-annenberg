@@ -1,0 +1,12 @@
+{
+  "name": "authentic-annenberg",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "http://www.authenticannenberg.net/",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.2.x",
+    "bootstrap": "~3.1.1",
+    "jquery": "1.10.2"
+  }
+}
