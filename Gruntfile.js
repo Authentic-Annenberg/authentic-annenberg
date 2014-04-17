@@ -1,6 +1,9 @@
 module.exports = function (grunt) {
  
     grunt.initConfig({
+        jshint: {
+            all: ['Gruntfile.js', 'app/**/*.js', 'test/**/*.js']
+        },
         pkg: grunt.file.readJSON('package.json'),
  
         clean: ["dist", '.tmp'],
@@ -41,7 +44,7 @@ module.exports = function (grunt) {
             }
         }
     });
- 
+    grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-concat');
@@ -52,6 +55,6 @@ module.exports = function (grunt) {
  
     // Tell Grunt what to do when we type "grunt" into the terminal
     grunt.registerTask('default', [
-        'copy', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'rev', 'usemin'
+        'jshint', 'copy', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'rev', 'usemin'
     ]);
 };

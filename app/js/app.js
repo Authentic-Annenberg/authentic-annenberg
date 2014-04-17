@@ -10,9 +10,18 @@ angular.module('authAnn', [
   'authAnn.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/home', {templateUrl: 'partials/home.html', controller: 'HomeController'});
-  $routeProvider.when('/team', {templateUrl: 'partials/team.html', controller: 'TeamController'});
-  $routeProvider.when('/contact', {templateUrl: 'partials/contact.html'});
-  $routeProvider.when('/view1', {templateUrl: 'partials/partial1.html', controller: 'MyCtrl1'});
-  $routeProvider.otherwise({redirectTo: '/home'});
+  $routeProvider.when('/', {templateUrl: 'partials/home.html'});
+  $routeProvider.when('/team', {
+    templateUrl: 'partials/team-list.html',
+    controller: 'TeamListController'
+  });
+  $routeProvider.when('/team/:id', {
+    templateUrl: 'partials/team-detail.html',
+    controller: 'TeamDetailController'
+  });
+  //$routeProvider.when('/contact', {templateUrl: 'partials/contact.html'});
+  $routeProvider.otherwise({redirectTo: '/'});
 }]);
+// config(['$locationProvider', function($locationProvider) {
+//   $locationProvider.html5Mode(true);
+// }]);

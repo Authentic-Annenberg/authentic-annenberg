@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Kamol Treewatchararat",
+        "id": "kamol",
+        "imageUrl": "img/team/k.jpg"
+    },
+    {
+        "name":"Andre Domenech",
+        "id": "andre-domenech",
+        "imageUrl": "img/team/andre.jpg"
+    },
+    {
+        "name":"Carol Zhu",
+        "id": "carol-zhu",
+        "imageUrl": "img/team/carol.jpg"
+    },
+    {
+        "name":"Emma Chen",
+        "id": "emma-chen",
+        "imageUrl": "img/team/emma.jpg"
+    },
+    {
+        "name":"Jan Zari",
+        "id": "jan-zari",
+        "imageUrl": "img/team/jan.png"
+    },
+    {
+        "name":"Jiyu Chen",
+        "id": "jiyu-chen",
+        "imageUrl": "img/team/jiyu.jpg"
+    }
+]

@@ -3,18 +3,15 @@
 /* jasmine specs for controllers go here */
 
 describe('controllers', function(){
-  beforeEach(module('myApp.controllers'));
-
-
-  it('should ....', inject(function($controller) {
-    //spec body
-    var myCtrl1 = $controller('MyCtrl1');
-    expect(myCtrl1).toBeDefined();
-  }));
+  beforeEach(module('authAnn.controllers'));
 
   it('should ....', inject(function($controller) {
-    //spec body
-    var myCtrl2 = $controller('MyCtrl2');
-    expect(myCtrl2).toBeDefined();
+    var teamController = $controller('TeamController');
+    expect(teamController).toBeDefined();
   }));
+  // it('should ....', inject(function  ($controller) {
+  //   var staticController = $controller('StaticController');
+  //   expect(staticController).toBeDefined();
+  // }));
+
 });
