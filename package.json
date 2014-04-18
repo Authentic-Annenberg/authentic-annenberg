@@ -1,9 +1,9 @@
 {
-  "name": "angular-seed",
+  "name": "authentic-annenberg",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "description": "A School project for Annenberg School of Communication",
+  "repository": "http://www.authenticannenberg.net",
   "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",

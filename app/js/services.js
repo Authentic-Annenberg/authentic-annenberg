@@ -14,4 +14,11 @@ factory('Team', ['$resource',
     });
   }
   ]
+).
+factory('Shows', ['$resource',
+	function($resource){
+		return $resource('https://spreadsheets.google.com/feeds/list/1rgjZVbvFuusUToVzlvopYYnqUucPlf_-rVYIcGXqOxM/od6/public/basic?hl=en_US&alt=json'
+			);
+	}
+	]
 );

@@ -12,15 +12,17 @@ module.exports = function (grunt) {
             main: {
                 expand: true,
                 cwd: 'app/',
-                src: ['**', '!js/**', '!lib/**', '!**/*.css'],
+                // src: ['**', '!js/**', '!lib/**', '!**/*.css'],
+                src: ['**', '!js/**', '!**/*.css', '!scss/**'],
                 dest: 'dist/'
-            },
-            shims: {
-                expand: true,
-                cwd: 'app/lib/webshim/shims',
-                src: ['**'],
-                dest: 'dist/js/shims'
             }
+            // },
+            // shims: {
+            //     expand: true,
+            //     cwd: 'app/lib/webshim/shims',
+            //     src: ['**'],
+            //     dest: 'dist/js/shims'
+            // }
         },
  
         rev: {
