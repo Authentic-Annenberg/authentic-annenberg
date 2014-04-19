@@ -10,3 +10,4 @@ npm-debug.log
 dist
 .tmp
 app/.sass-cache
+.sass-cache/

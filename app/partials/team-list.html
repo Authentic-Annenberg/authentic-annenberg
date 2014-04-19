@@ -1,5 +1,8 @@
-<div ng-repeat="person in team"
-    class="list">
-  <a href="#/team/{{person.id}}" class="thumb"><img width="96" height="96" ng-src="{{person.imageUrl}}"></a>
-  <a href="#/team/{{person.id}}" class="list-name">{{person.name}}</a>
+<div class="row">
+	<div ng-repeat="member in team">
+	    <div class="col-md-4 member">
+	    	<a href="#/team/{{member.id}}" class="thumb"><img class="img-circle" ng-src="{{member.imageUrl}}"></a>
+			<p>{{member.name}}</p>
+	    </div>
+	</div>
 </div>

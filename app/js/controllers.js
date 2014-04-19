@@ -25,3 +25,11 @@ AAControllers.controller('TeamDetailController',
     }
   ]
 );
+
+AAControllers.controller('ProjectListController',
+  ['$scope', 'Projects',
+    function($scope, Projects){
+      $scope.projects = Projects.query();
+    }
+  ]
+);

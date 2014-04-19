@@ -1,0 +1,83 @@
+[
+    {
+        "name":"Video Resume (CMGT 550)",
+        "id": "1",
+        "authors": [
+            "Courtney Klopper"
+        ],
+        "url": "https://www.youtube.com/watch?v=gs1MF-UYw_Q",
+        "comment" :"I made this for a class I took at Annenberg. It's a video resume that looks at how my life would be if it were a transmedia story (i.e., how different media platforms and ways of storytelling collide to create a larger picture)."
+    },
+    {
+        "name":"Three Body Transmedia Project (CMGT 550)",
+        "id": "2",
+        "authors" : [
+            "Emma Linyi Chen", "Rui He", "Ru Nan", "Qin Li", "Moran Pei", "Miya Mengyao Cheng"
+        ],
+        "url": "http://www.slideshare.net/threebodyusc/case-studythree-body-trilogy-20751230",
+        "comment":"This is an ongoing project for the best-selling Chinese science fiction Three Body Trilogy by Liu, Cixin. We use the idea of transmedia to promote its  English version  in the US market. The media forms that we are using include Theme song, Trailor, Street Interview, IOS Game app and Facebook (Youtube Channel: Threebody USC; Facebook:Three Body Trilogy). We have 4000 fans on Facebook page and our original theme song MV has generated more than 6000 views on major video websites in China and the US. Now we are negotiating with a Chinese movie company who is interested in using our song in the Three Body movie series."
+    },
+    {
+        "name":"MiDIA",
+        "id": "3",
+        "authors": [
+            "Mengchu Wang", "Yang Chen", "Ruoyi Wang"
+        ],
+        "url": "http://www.midiaus.com/ci2/",
+        "comment": "MiDIA aims at helping Chinese students find internships and full-time jobs in U.S. The website (www.midiaus.com) will be launched soon. It will provide information about job openings, media industry, resume and interview tips, and fashion in the work place. Our official Sina Weibo @MissMiDIA has 1800+ followers and our official Wechat \"MiDIA北美传媒小蜜蜂\" has 300+ subscribers by now."
+    },
+    {
+        "name":"TransMEdia Project (CMGT 550)",
+        "id": "4",
+        "authors" : [
+            "Andres Domenech"
+        ],
+        "url": "https://www.youtube.com/watch?v=oduvKT-iqIY",
+        "comment":"My way of learning about video editing and all of its little intricacies.  It's just a couple of clips from film and TV shows I love mashed together, with a bit of weird music and all that.  I'm still learning a lot about all this stuff, but it's the first step in what I hope to be a bigger part of my life."
+    },
+    {
+        "name":"Balance (TV show from Trojan Vision)",
+        "id": "5",
+        "authors" : [
+            "Danielle Thouin"
+        ],
+        "url": "http://tv8-1.usc.edu/?p=17758",
+        "comment":"Balance is USC’s 30-minute health and wellness television program featuring topics from physical fitness tips and demonstrations to nutrition and health news. It is distributed on campus and throughout the Los Angeles area, Santa Monica, Hollywood, and Cerritos. The “Genetics” episode addresses issues related to body image and brings on Biological Sciences Professor, Dr. Alan Watts, to discuss the genetic relationship between metabolism and the brain."
+    },
+    {
+        "name":"Sci-out",
+        "id": "6",
+        "authors": [
+            "Zhonglan Lin", "Yijing Dong", "Jinhui Li", "Michelle"
+        ],
+        "url": "http://sci-out.weebly.com",
+        "comment":"A unique game-based social network website for all science fiction fans (cross contents and stories) to meetup both online & offline."
+    },
+    {
+        "name":"Ad campaign for Yunnan Baiyao",
+        "id":"7",
+        "authors":[
+            "Selena Chueh"
+        ],
+        "url": "http://www.slideshare.net/CarolZhu1/dove-chocolate-presentation-33631131",
+        "comment": "The project aims at revising the current commercial based on different appeals. It also includes the demand analysis and executed ad test in order to decided a favorable one for audiences."
+    },
+    {
+        "name":"Dove Chocolate",
+        "id":"8",
+        "authors":[
+            "Selena Chueh"
+        ],
+        "url":"http://www.slideshare.net/CarolZhu1/dove-chocolate-presentation-33631131",
+        "comment": "Interactive Elements Design for Dove Chocolate"
+    },
+    {
+        "name":"LEGO (CMGT555)",
+        "id":"9",
+        "authors":[
+            "Carol Zhu"
+        ],
+        "url":"https://www.youtube.com/watch?v=hP4aYiLuMeM&feature=youtu.be",
+        "comment":"A video on the Interface design for LEGO HoliPlay campaign"
+    }
+]

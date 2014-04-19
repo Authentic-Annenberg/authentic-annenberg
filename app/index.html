@@ -3,48 +3,38 @@
 <head>
   <meta charset="utf-8">
   <title>Authentic Annenberg</title>
-  
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
   <!-- build:css css/authentic-annenberg.min.css -->
-  <link rel="stylesheet" href="../bower_components/bootstrap/bootstrap-1.2.0.min.css"/>
+  
   <link rel="stylesheet" href="css/app.css"/>
   <!-- endbuild -->
 
 </head>
 <body>
-
-  <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Authentic Annenberg</h3>
-              <ul class="nav masthead-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Content</a></li>
-                <li><a href="#/team">Team</a></li>
-                <li><a href="#/contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div ng-view class="inner cover">
-            
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>this is a footer</p>
-            </div>
-          </div>
-
-        </div>
-
+  <div class="masthead">
+    <div class="container">
+      <div class="masthead-brand">
+        <img width="300" height="300" src="">
+        <!-- Logo goes here -->
       </div>
-
     </div>
+    <div class="nav-bar">
+      <div class="container nav">
+        <ul class="masthead-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#/content">Content</a></li>
+          <li><a href="#/team">Team</a></li>
+          <li><a href="#/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div ng-view class="container inner">
+      
+    </div>
+  </div>
 
   <!-- build:js js/authentic-annenberg.min.js -->
   <script src="../bower_components/jquery/dist/jquery.min.js"></script>
@@ -57,7 +47,7 @@
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
   <!-- endbuild -->
-
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   
 </body>
 </html>
