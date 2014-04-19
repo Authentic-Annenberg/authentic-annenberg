@@ -101,6 +101,12 @@ body {
   height: 144px; }
 
 /*
+ * Project title
+ */
+.cover-heading a {
+  color: black; }
+
+/*
  * Footer
  */
 .mastfoot {

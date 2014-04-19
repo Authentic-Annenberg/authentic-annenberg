@@ -33,3 +33,18 @@ AAControllers.controller('ProjectListController',
     }
   ]
 );
+
+AAControllers.controller('ProjectDetailController',
+  ['$scope', '$routeParams', 'Projects',
+    function($scope, $routeParams, Projects) {
+      $scope.project = Projects.get({id: $routeParams.id},
+        function(projects) {
+          $scope.mainImageUrl = projects.images[0];
+        });
+
+      $scope.setImage = function(mainImageUrl) {
+        $scope.mainImageUrl = imagesUrl;
+      };
+    }
+  ]
+);

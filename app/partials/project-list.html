@@ -1,7 +1,7 @@
 <div class="row">
 	<div ng-repeat="project in projects">
 		<div class="col-md-4">
-			<a href="{{project.url}}" class="thumb"><img width="360" height="200" ng-src="{{project.imageUrl}}"></a>
+			<a href="#/content/{{project.id}}" class="thumb"><img width="360" height="200" ng-src="{{project.imageUrl}}"></a>
 			<p>{{project.name}}</p>
 		</div>
 	</div>
