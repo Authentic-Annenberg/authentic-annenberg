@@ -11,6 +11,14 @@ angular.module('authAnn', [
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {templateUrl: 'partials/home.html'});
+  $routeProvider.when('/content', {
+    templateUrl: 'partials/project-list.html',
+    controller: 'ProjectListController'
+  });
+  $routeProvider.when('/content/:id', {
+    templateUrl: 'partials/project-detail.html',
+    controller: 'ProjectDetailController'
+  });
   $routeProvider.when('/team', {
     templateUrl: 'partials/team-list.html',
     controller: 'TeamListController'

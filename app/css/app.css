@@ -43,7 +43,7 @@ body {
   display: table-cell;
   vertical-align: top; }
 
-.cover-container {
+.container {
   margin-right: auto;
   margin-left: auto; }
 
@@ -58,27 +58,23 @@ body {
   margin-top: 10px;
   margin-bottom: 10px; }
 
-.masthead-nav > li {
+.masthead-nav li {
   display: inline-block; }
-
-.masthead-nav > li + li {
+  .masthead-nav li a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    /* IE8 proofing */
+    color: rgba(100, 100, 100, 0.75);
+    border-bottom: 2px solid transparent; }
+  .masthead-nav li a:hover, .masthead-nav li a:focus {
+    background-color: transparent;
+    border-bottom-color: #a9a9a9;
+    border-bottom-color: rgba(255, 255, 255, 0.25); }
+.masthead-nav li + li {
   margin-left: 20px; }
-
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #333;
-  /* IE8 proofing */
-  color: rgba(100, 100, 100, 0.75);
-  border-bottom: 2px solid transparent; }
-
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255, 255, 255, 0.25); }
 
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
@@ -88,10 +84,7 @@ body {
 
 @media (min-width: 768px) {
   .masthead-brand {
-    float: left; }
-
-  .masthead-nav {
-    float: right; } }
+    text-align: left; } }
 /*
  * Cover
  */
@@ -116,14 +109,6 @@ body {
  */
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  .masthead {
-    /*position: fixed;*/
-    top: 0; }
-
-  .mastfoot {
-    /*position: fixed;*/
-    bottom: 0; }
-
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle; }
@@ -131,14 +116,9 @@ body {
   /* Handle the widths */
   .masthead,
   .mastfoot,
-  .cover-container {
+  .container {
     width: 100%;
     /* Must be percentage or pixels for horizontal alignment */ } }
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px; } }
 .list {
   display: inline-block; }
 

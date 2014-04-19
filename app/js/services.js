@@ -15,9 +15,11 @@ factory('Team', ['$resource',
   }
   ]
 ).
-factory('Shows', ['$resource',
+factory('Projects', ['$resource',
 	function($resource){
-		return $resource('https://spreadsheets.google.com/feeds/list/1rgjZVbvFuusUToVzlvopYYnqUucPlf_-rVYIcGXqOxM/od6/public/basic?hl=en_US&alt=json'
+		return $resource('projects/:id.json', {}, {
+      query: {method:'GET', params:{id:'projects'}, isArray:true}
+    }
 			);
 	}
 	]
