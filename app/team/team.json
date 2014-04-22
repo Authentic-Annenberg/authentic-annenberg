@@ -2,31 +2,31 @@
     {
         "name":"Kamol Treewatchararat",
         "id": "kamol",
-        "imageUrl": "img/team/k.jpg"
+        "imageUrl": "img/team/thumbnail/K_144_144.jpg"
     },
     {
         "name":"Andre Domenech",
         "id": "andre-domenech",
-        "imageUrl": "img/team/andre.jpg"
+        "imageUrl": "img/team/thumbnail/andres_144_144.jpg"
     },
     {
         "name":"Carol Zhu",
         "id": "carol-zhu",
-        "imageUrl": "img/team/carol.jpg"
+        "imageUrl": "img/team/thumbnail/carol_144_144.jpg"
     },
     {
         "name":"Emma Chen",
         "id": "emma-chen",
-        "imageUrl": "img/team/emma.jpg"
+        "imageUrl": "img/team/thumbnail/emma_144_144.jpg"
     },
     {
         "name":"Jan Zari",
         "id": "jan-zari",
-        "imageUrl": "img/team/jan.jpg"
+        "imageUrl": "img/team/thumbnail/jan_144_144.jpg"
     },
     {
         "name":"Jiyu Chen",
         "id": "jiyu-chen",
-        "imageUrl": "img/team/jiyu.jpg"
+        "imageUrl": "img/team/thumbnail/jiyu_144_144.jpg"
     }
 ]
