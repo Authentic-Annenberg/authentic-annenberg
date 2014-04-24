@@ -11,3 +11,4 @@ dist
 .tmp
 app/.sass-cache
 .sass-cache/
+authenticannenberg.pem

@@ -11,6 +11,7 @@ angular.module('authAnn', [
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {templateUrl: 'partials/home.html'});
+  $routeProvider.when('/about-us', {templateUrl: 'partials/about.html'});
   $routeProvider.when('/content', {
     templateUrl: 'partials/project-list.html',
     controller: 'ProjectListController'
