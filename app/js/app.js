@@ -28,6 +28,11 @@ config(['$routeProvider', function($routeProvider) {
     templateUrl: 'partials/team-detail.html',
     controller: 'TeamDetailController'
   });
+
+  $routeProvider.when('/fbtest', {
+    templateUrl: 'partials/test.html',
+    controller: 'FBController'
+  });
   //$routeProvider.when('/contact', {templateUrl: 'partials/contact.html'});
   $routeProvider.otherwise({redirectTo: '/'});
 }]);

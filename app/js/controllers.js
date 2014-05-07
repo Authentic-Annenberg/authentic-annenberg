@@ -3,6 +3,14 @@
 /* Controllers */
 
 var AAControllers = angular.module('authAnn.controllers', []);
+
+AAControllers.controller('FBController',
+  ['$scope',
+    function($scope) {
+      
+    }
+  ]
+);
 AAControllers.controller('TeamListController',
   ['$scope', 'Team',
     function($scope, Team) {
